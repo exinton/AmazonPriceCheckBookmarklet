@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var htmlreplace = require('gulp-html-replace');
-var fs = require("fs");
+var fs = require('fs');
 
 gulp.task('minify', function() {
 	return gulp.src('bookmarklet.js')
