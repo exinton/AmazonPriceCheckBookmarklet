@@ -12,7 +12,7 @@
 		var productName = title.textContent.split(' ').join('+');
 		var searchUrl = 'https://www.google.com/search?tbm=shop&q=' + productName;
 		
+        // Navigate to the Google Product search page
 		window.open(searchUrl, '_blank');
-		//window.location.href = searchUrl;
 	}
 })();

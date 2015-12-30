@@ -16,7 +16,7 @@ gulp.task('publish', ['minify'], function() {
 		.pipe(htmlreplace({
 			js: {
 				src: priceCheckSource,
-				tpl: "<a class='btn btn-success btn-lg' href='javascript:%svoid(0);' role='button'>&#x2714; Amazon Price Check</a>"
+				tpl: "<a class='btn btn-success btn-lg' href='javascript:%s;void(0);' role='button'>&#x2714; Amazon Price Check</a>"
 			}
 		}))
 		.pipe(gulp.dest('dist/'));
